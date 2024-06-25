@@ -1,0 +1,71 @@
+.custom-btn {
+    background-color: #ff6600; /* Orange background */
+    border-color: #ff6600; /* Orange border */
+    color: #fff; /* White text */
+    font-weight: bold;
+}
+/* colors */
+.bg-mint{
+    color: #98FF98;
+}
+.bg-success {
+    --bs-bg-opacity: 0.5;
+    background-color: #98FF98 !important;
+}
+/* icons */
+.github-icon{
+    height: 25px;
+    width: 25px;
+}
+.github-icon:hover{
+    margin:5px;
+    height: 50px;
+    width: 50px;
+    transform: rotate(10deg);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.project-label-icons{
+    width: 200px;
+    height: 200px;
+}
+.project-label-icons:hover{
+    width: 240px;
+    height: 240px;
+    transform: rotate(10deg);
+    transition: opacity 1s ease, transform 1s ease;
+    margin-right: 5px;
+}
+
+/* fonts */
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.project-boxes-design{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #98FF98;
+    padding: 5px;
+    height:100%;
+    width: 100%;
+
+}
+/* .project-boxes-design:hover{
+    background-color: blue;
+
+} */
+  /* Push to github another file name  */
