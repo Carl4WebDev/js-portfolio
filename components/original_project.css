@@ -1,0 +1,81 @@
+body{
+    padding: 20px;
+}
+.original-project-card{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(0, 0, 0, 0.2);
+    width: 350px
+}
+.card-buttons {
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-buttons:hover {
+    background-color: #31D2F2;
+    transform: scale(1.3);
+    box-shadow: 
+        5px 5px 5px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.card-img{
+    border-radius: 100px;
+    transition: transform 0.3s ease;
+}
+
+.card-img:hover{
+    border-radius: 100px;
+    transform: scale(1.1);    
+}
+.menu1{
+    padding: 10px;
+    display:none;
+    position: fixed;
+    left:100px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.menu2{
+    padding: 10px;
+    display:none;
+    position: fixed;
+    left:100px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.menu-container{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #98FF98;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.menu-container:hover .menu1{
+    background-color: #66CD66;
+    display:block;
+}
+.menu-container:hover .menu2{
+    background-color: #66CD66;
+    display:block;
+}
+
+
