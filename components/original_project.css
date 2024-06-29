@@ -34,29 +34,8 @@ body{
     border-radius: 100px;
     transform: scale(1.1);    
 }
-.menu1{
-    padding: 10px;
-    display:none;
+.menu-button{
     position: fixed;
-    left:100px;
-    top: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-
-}
-.menu2{
-    padding: 10px;
-    display:none;
-    position: fixed;
-    left:100px;
-    top: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-
-}
-.menu-container{
-    position: fixed;
-    top: 10px;
     left: 10px;
     display: flex;
     justify-content: center;
@@ -65,17 +44,31 @@ body{
     width: 50px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #98FF98;
+    background-color: #66CD66;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
-.menu-container:hover .menu1{
+.menu-button:hover{
+    background-color: skyblue;
+}
+.menu-container{
+    position: fixed;
+    left:70px;
+    height: auto;
+    width: auto;
     background-color: #66CD66;
-    display:block;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
 }
-.menu-container:hover .menu2{
+.menu-container-side{
+    position: fixed;
+    left:10px;
+    top: 75px;
+    height: auto;
+    width:auto;
     background-color: #66CD66;
-    display:block;
+    padding: 10px;
+    border-radius: 10px;
+    display:none;
 }
-
 
