@@ -34,6 +34,8 @@ body{
     border-radius: 100px;
     transform: scale(1.1);    
 }
+
+
 .menu-button{
     position: fixed;
     left: 10px;
@@ -52,7 +54,7 @@ body{
 }
 .menu-container{
     position: fixed;
-    left:70px;
+    left:80px;
     height: auto;
     width: auto;
     background-color: #66CD66;
@@ -63,12 +65,25 @@ body{
 .menu-container-side{
     position: fixed;
     left:10px;
-    top: 75px;
+    top: 90px;
     height: auto;
     width:auto;
     background-color: #66CD66;
     padding: 10px;
     border-radius: 10px;
     display:none;
+}
+
+.project-label-icons-header{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+.project-label-icons-header:hover{
+    width: 60px;
+    height: 60px;
+    transform: rotate(10deg);
+    transition: opacity 1s ease, transform 1s ease;
+    margin-right: 5px;
 }
 
