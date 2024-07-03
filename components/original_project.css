@@ -8,7 +8,7 @@ body{
     box-shadow: 
         5px 5px 5px rgba(0, 0, 0, 0.3),
         -5px -5px 10px rgba(0, 0, 0, 0.2);
-    width: 350px
+    width: 350px;
 }
 .card-buttons {
     background-color: blue;
@@ -24,14 +24,15 @@ body{
     box-shadow: 
         5px 5px 5px rgba(0, 0, 0, 0.3),
         -5px -5px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
 }
 .card-img{
-    border-radius: 100px;
+    border-radius: 30px;
     transition: transform 0.3s ease;
 }
 
 .card-img:hover{
-    border-radius: 100px;
+    border-radius: 10px;
     transform: scale(1.1);    
 }
 
@@ -87,3 +88,30 @@ body{
     margin-right: 5px;
 }
 
+/* Language Icons */
+.language-icons {
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.bg-html{
+    background-color: #ED4622;
+}
+
+/* icon header */
+@media (max-width:500px) {
+    .project-label-icons-header{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .project-label-icons-header:hover{
+        width: 40px;
+        height: 40px;
+        transform: rotate(10deg);
+        transition: opacity 1s ease, transform 1s ease;
+        margin-right: 5px;
+    }
+}
