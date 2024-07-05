@@ -1,9 +1,13 @@
+body{
+    padding: 30px;
+}
 .custom-btn {
     background-color: #ff6600; /* Orange background */
     border-color: #ff6600; /* Orange border */
     color: #fff; /* White text */
     font-weight: bold;
 }
+
 /* colors */
 .bg-mint{
     color: #98FF98;
@@ -77,6 +81,9 @@
 }
 /* icon side-header */
 @media (max-width:500px) {
+    bdoy{
+        padding: 10px;
+    }
     .gear{
         margin-left: 15px;
     }
