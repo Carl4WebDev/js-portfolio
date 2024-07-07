@@ -1,6 +1,4 @@
-body{
-    padding: 30px;
-}
+
 .custom-btn {
     background-color: #ff6600; /* Orange background */
     border-color: #ff6600; /* Orange border */
@@ -101,8 +99,8 @@ body{
         transition: opacity 1s ease, transform 1s ease;
     }
     .index-img{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 }
 @media (max-width:900px) {
