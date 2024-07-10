@@ -99,6 +99,12 @@ body{
 .bg-html{
     background-color: #ED4622;
 }
+.bg-react{
+    background-color: #5CD0F3;
+}
+.bg-jquery{
+    background-color:#0769AD;
+}
 
 /* icon header */
 @media (max-width:500px) {
